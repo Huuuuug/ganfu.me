@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* :root {
+  --f-bg: #fff;
+  --f-scrollbar: #fff;
+  --f-scrollbar-hover: #bbb;
+} */
+
+[data-bs-theme="light"] {
+  --f-bg: #fff;
+  --f-scrollbar: #fff;
+  --f-scrollbar-hover: #bbb;
+  --f-base-color: #2F2D2D;
+}
+
+[data-bs-theme="dark"] {
+  --f-bg: #050505;
+  --f-scrollbar: #111;
+  --f-scrollbar-hover: #222;
+  --f-base-color: #E1DEDE;
+}
+
+html {
+  background-color: var(--f-bg);
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+}
+
+::selection {
+  background-color: #8884;
+}
+
+#nprogress {
+  pointer-events: none;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ganfu.me",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "dev": "vite --port 3333 --open",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "dayjs": "^1.11.10",
+    "nprogress": "^0.2.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.8.0",
+    "@iconify/json": "^2.2.189",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.24",
+    "@types/nprogress": "^0.2.3",
+    "@unhead/vue": "^1.8.11",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "fs-extra": "^11.2.0",
+    "gray-matter": "^4.0.3",
+    "husky": "^9.0.11",
+    "pinia": "^2.1.7",
+    "typescript": "^5.3.3",
+    "unocss": "^0.58.5",
+    "unplugin-vue-markdown": "^0.26.0",
+    "vite": "^5.1.4",
+    "vite-plugin-pages": "^0.32.0",
+    "vite-ssg": "^0.23.6"
+  }
+}
