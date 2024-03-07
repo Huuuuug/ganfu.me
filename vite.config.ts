@@ -13,10 +13,10 @@ export default defineConfig({
     alias: [{ find: "@/", replacement: `${resolve(__dirname, "src")}/` }],
   },
   plugins: [
+    UnoCSS(),
     vue({
       include: [/\.vue$/, /\.md$/],
     }),
-    UnoCSS(),
     Pages({
       extensions: ["vue", "md"],
       dirs: "src/pages",
@@ -32,6 +32,9 @@ export default defineConfig({
     }),
     Markdown({
       headEnabled: true,
+      wrapperClasses: (id, code) => {
+        return "prose";
+      },
     }),
   ],
 });

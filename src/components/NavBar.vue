@@ -5,7 +5,7 @@ import ToggleTheme from "./ToggleTheme.vue";
 </script>
 
 <template>
-  <header class="z-40">
+  <header class="header z-40">
     <RouterLink
       class="w-12 h-12 absolute xl:fixed m-5 select-none outline-none"
       to="/"
@@ -35,15 +35,18 @@ import ToggleTheme from "./ToggleTheme.vue";
 </template>
 
 <style scoped>
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .nav {
   padding: 1.5rem;
   width: 100%;
-  display: grid;
-  grid-template-columns: auto max-content;
+  display: flex;
   box-sizing: border-box;
-}
-.nav > * {
-  margin: auto;
+  justify-content: space-between;
 }
 
 .nav a {

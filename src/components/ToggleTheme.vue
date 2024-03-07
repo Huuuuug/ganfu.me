@@ -51,7 +51,7 @@ const toggleTheme = (event: MouseEvent) => {
 
 <template>
   <a class="select-none" title="Toggle Color Scheme" @click="toggleTheme">
-    <div i-ri-sun-line dark:i-ri-moon-line />
+    <div :class="[isDark ? 'i-ri-moon-line' : 'i-ri-sun-line']" />
   </a>
 </template>
 

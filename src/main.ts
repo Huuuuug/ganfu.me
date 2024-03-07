@@ -1,4 +1,6 @@
 import "@/assets/styles/main.css";
+import "@/assets/styles/prose.css";
+import "@/assets/styles/markdown.css";
 import "virtual:uno.css";
 
 import { ViteSSG } from "vite-ssg";
