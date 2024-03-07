@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.8.0",
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
     "@iconify/json": "^2.2.189",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.11.24",
@@ -34,5 +36,8 @@
     "vite": "^5.1.4",
     "vite-plugin-pages": "^0.32.0",
     "vite-ssg": "^0.23.6"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
