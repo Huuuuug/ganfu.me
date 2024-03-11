@@ -26,7 +26,7 @@
 html {
   background-color: var(--f-bg);
   overflow-x: hidden;
-  /* overflow-y: scroll; */
+  scroll-behavior: smooth;
 }
 
 ::selection {
