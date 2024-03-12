@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import Logo from "./Logo.vue";
+import Logo from "@/components/icons/shit.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 </script>
 

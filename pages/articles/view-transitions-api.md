@@ -5,6 +5,8 @@ lang: zh
 duration: 10min
 ---
 
+# View Transition Api
+
 View Transitions API 是一类较新的 web API, 为 DOM 更新提供了更加便利的过渡机制, 目前, chrome 111 + 已经支持该 API.
 
 传统的过渡动画有什么缺点呢?

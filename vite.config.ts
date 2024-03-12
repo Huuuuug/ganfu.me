@@ -25,7 +25,7 @@ export default defineConfig({
     }),
     Pages({
       extensions: ["vue", "md"],
-      dirs: "src/pages",
+      dirs: "pages",
       extendRoute(route) {
         const path = resolve(__dirname, route.component.slice(1));
         if (!path.includes("projects.md") && path.endsWith(".md")) {
