@@ -36,6 +36,7 @@ export default defineConfig({
         return route;
       },
     }),
+
     Markdown({
       headEnabled: true,
       wrapperClasses: (id, code) => {

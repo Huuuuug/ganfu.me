@@ -4,7 +4,7 @@
   "type": "module",
   "packageManager": "pnpm@8.15.4",
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333",
     "build": "vite-ssg build",
     "preview": "vite preview",
     "prepare": "husky install"
